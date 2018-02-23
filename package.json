@@ -1,0 +1,31 @@
+{
+  "name": "backend-entria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node ./src/server/index.js",
+    "test": "jest",
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "eslint '**/*.js' --fix"
+  },
+  "author": "Carlos Vinicius Duarte Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-http": "^3.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^21.12.2",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^22.4.2",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0"
+  }
+}

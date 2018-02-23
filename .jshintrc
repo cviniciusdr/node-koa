@@ -1,0 +1,1 @@
+{	"curly": true,	"eqeqeq": true,	"undef": true,	"camelcase": true,	"unused": true,	"globals": {		"jQuery": true,		"angular": true	}}
